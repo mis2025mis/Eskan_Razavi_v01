@@ -1,0 +1,11 @@
+{
+  "name": "eskan-razavi",
+  "version": "1.0.0",
+  "description": "Django application for pilgrim accommodation management",
+  "scripts": {
+    "build": "python manage.py collectstatic --noinput && cp -r home/static/* static/ 2>/dev/null || true",
+    "start": "python manage.py runserver 0.0.0.0:8000"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
